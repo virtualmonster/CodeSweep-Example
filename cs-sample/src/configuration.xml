@@ -1,0 +1,12 @@
+<Configuration>
+  <Targets>
+    <Target path="C:\test\MyApplication.ear">
+      <CustomBuildInfo additional_classpath="C:\java\lib;C:\java2\lib"
+        jdk_path="C:\Program Files\Java\jdk1.7" jsp_compiler="C:\Tomcat"/>
+      <Include>ShoppingCart.war</Include>
+      <Include>*Account.jar</Include>
+      <Exclude>thirdPartyJars/</Exclude>
+      <Exclude>*test*</Exclude>
+    </Target>
+  </Targets>
+</Configuration>
