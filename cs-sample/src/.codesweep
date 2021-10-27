@@ -13,6 +13,6 @@ folders:
         - project/exclude_dir
         - another_directory
 verdict: 
-    max-high: 0 
+    max-high: 3 
     max-medium: 10 
     max-low: 100 
