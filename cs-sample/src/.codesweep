@@ -14,6 +14,6 @@ folders: # default=./ , Optional
         - project/exclude_dir
         - another_directory
 verdict: # PASS verdict, Optional
-    max-high: 0 # default=0, Optional
+    max-high: 5 # default=0, Optional
     max-medium: 10 # default=0 , Optional
     max-low: 100 # default=-1 (no limit), Optional
