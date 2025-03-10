@@ -1,5 +1,5 @@
 # Example of configuration for codesweep
-name: sample # Name of project, Required
+name: Static Code Analysis - Security Scan # Name of project, Required
 ignore: # Optional
     file: xx_custom_scanners_service_ignore.json # json file coming from visual code, Optional
     rules: #list of rules to ignore, Optional
